@@ -1,0 +1,1 @@
+package crazyJava.regular;import java.util.regex.Pattern;/** * @author liuhuihai * @date 2019-04-15 23:12 * @description first */public class Patt {    public static void main(String[] args) {        String str = "我想求购一本《疯狂Java讲义》，请尽快联系我18665971439";        String t= "((13\\d))|(15\\d)";        Pattern m = Pattern.compile(t);    }}
