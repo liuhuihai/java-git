@@ -1,5 +1,7 @@
 package chapter15.file;
 
+import org.springframework.beans.factory.BeanFactory;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -28,6 +30,7 @@ public class FileTest {
         System.out.println(file.getParent());
         System.out.println(file.getAbsoluteFile());
         System.out.println(file.getAbsolutePath());
+        BeanFactory
         System.out.println(file.getAbsoluteFile().getParent());
         System.out.println(file.exists());
         File tempFile = File.createTempFile("aaa",".txt",new File("."));
